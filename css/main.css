@@ -7,12 +7,12 @@ html {
 }
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: #666666;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #666666;
     text-shadow: none;
 }
 
@@ -32,6 +32,7 @@ img,
 svg,
 video {
     vertical-align: middle;
+	
 }
 
 fieldset {
@@ -66,22 +67,22 @@ body {
 }
 
 /* ===================
-    ALL: Orange Theme
+    ALL: Purple Theme
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+    border-bottom: 20px solid #000033;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
+    border-top: 20px solid #000033;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+    background: #333366;
 }
 
 .title {
@@ -108,7 +109,7 @@ nav a {
     font-weight: bold;
 
     color: white;
-    background: #e44d26;
+    background: #33366;
 }
 
 nav a:hover,

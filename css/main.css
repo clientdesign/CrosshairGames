@@ -7,12 +7,12 @@ html {
 }
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: #666666;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #666666;
     text-shadow: none;
 }
 
@@ -32,6 +32,7 @@ img,
 svg,
 video {
     vertical-align: middle;
+	
 }
 
 fieldset {
@@ -66,22 +67,22 @@ body {
 }
 
 /* ===================
-    ALL: Orange Theme
+    ALL: Purple Theme
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+    border-bottom: 20px solid #000033;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
+    border-top: 20px solid #000033;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+    background: #333366;
 }
 
 .title {
@@ -98,6 +99,7 @@ nav ul {
     list-style-type: none;
 }
 
+
 nav a {
     display: block;
     margin-bottom: 10px;
@@ -108,7 +110,7 @@ nav a {
     font-weight: bold;
 
     color: white;
-    background: #e44d26;
+    background: #33366;
 }
 
 nav a:hover,
@@ -125,7 +127,7 @@ nav a:hover {
    ============== */
 
 .main {
-    padding: 30px 0;
+    padding: 20px 0;
 }
 
 .main article h1 {
@@ -180,9 +182,9 @@ nav a:hover {
 
     nav a {
         float: left;
-        width: 27%;
+        width: 15%;
         margin: 0 1.7%;
-        padding: 25px 2%;
+        padding: 10px 2%;
         margin-bottom: 0;
     }
 
@@ -230,7 +232,7 @@ nav a:hover {
 
     nav {
         float: right;
-        width: 38%;
+        width: 60%;
     }
 
 /* ============

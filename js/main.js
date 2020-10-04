@@ -1,4 +1,4 @@
-const runGame = document.getElementById('game1');
+// const runGame = document.getElementById('game1');
+// onclick
 
 // Event listeners
-onclick

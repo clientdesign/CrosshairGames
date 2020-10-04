@@ -1,5 +1,6 @@
 .tmp/
-_admin/
-dist/
+/_admin/
+/dist/
 
-icons/_icons-admin-shortcut.lnk
+/icons/_icons-admin-shortcut.lnk
+Web Tools - Shortcut.lnk

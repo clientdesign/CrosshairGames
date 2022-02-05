@@ -1,10 +1,39 @@
+# What Kind of Files Should You Ignore?
+# https://www.pluralsight.com/guides/how-to-use-gitignore-file
+# 1 Log files
+# 2 Files with API keys/secrets, credentials, or sensitive information
+# 3 Useless system files like .DS_Store on macOS
+# 4 Generated files like dist folders
+# 5 Dependencies which can be downloaded from a package manager
+# 6 And there might be other reasons (maybe you make little todo.md files)
+# 7 You can get an idea for what sort of files to ignore on gitignore.io, by selecting your operating system, text editor or IDE, languages, and frameworks.
+
+# 1 Ensure any log files are prevented from upload
+logs/
+netlify-logs.txt
+*.logs
+
+# 2 currently no security related files are store here that I konw of...
+# ! REVISIT OFTEN TO BE SAFE !!!
+
+
+# 3 If MacOS users contribute, then remove .DS_Store
+.DS_Store
+
+# 4 Generated files like dist folders
 .tmp/
-/_ignore-files/
-/_admin/
 /dist/
-/node_modules/
-/games/
+
+# 5 Dependencies which can be downloaded from a package manager
+node_modules/
+node_modules
+
+
+# 6a My personal organizing files to ignore
+_ignore-files/
+_admin/
+
+# 6b My Shortcuts for development to ignore
 /icons/_icons-admin-shortcut.lnk
 Web Tools - Shortcut.lnk
-
-netlify-logs.txt
+*.lnk

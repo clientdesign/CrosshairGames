@@ -32,6 +32,7 @@ node_modules
 # 6a My personal organizing files to ignore
 _ignore-files/
 _admin/
+version*
 
 # 6b My Shortcuts for development to ignore
 /icons/_icons-admin-shortcut.lnk

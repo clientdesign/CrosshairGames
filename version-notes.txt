@@ -1,3 +1,0 @@
-[Summary]
-V0002 Fix build error for serverless
-	Configuring for "serverless" Next.js builds.

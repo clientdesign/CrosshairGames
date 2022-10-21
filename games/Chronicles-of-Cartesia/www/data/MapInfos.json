@@ -1,0 +1,14 @@
+[
+null,
+{"id":1,"expanded":true,"name":"Heroes Town Port","order":2,"parentId":0,"scrollX":925.7142857142857,"scrollY":520.2857142857142},
+{"id":2,"expanded":false,"name":"World Map","order":10,"parentId":0,"scrollX":532,"scrollY":295.5},
+{"id":3,"expanded":false,"name":"Cave002","order":8,"parentId":0,"scrollX":911.9999999999999,"scrollY":520.2857142857142},
+{"id":4,"expanded":false,"name":"Cave001-stolen","order":4,"parentId":0,"scrollX":911.9999999999999,"scrollY":520.2857142857142},
+{"id":5,"expanded":true,"name":"Cave001-bare","order":5,"parentId":4,"scrollX":911.9999999999999,"scrollY":520.2857142857142},
+{"id":6,"expanded":false,"name":"Heroes Home","order":1,"parentId":0,"scrollX":925.7142857142857,"scrollY":520.2857142857142},
+{"id":7,"expanded":false,"name":"Heroes Town Port BKUP","order":3,"parentId":1,"scrollX":925.7142857142857,"scrollY":520.2857142857142},
+{"id":8,"expanded":true,"name":"Cave001-stolen2","order":6,"parentId":4,"scrollX":911.9999999999999,"scrollY":520.2857142857142},
+{"id":9,"expanded":false,"name":"Cave001-bare2","order":7,"parentId":4,"scrollX":911.9999999999999,"scrollY":520.2857142857142},
+{"id":10,"expanded":false,"name":"Channel-TEST","order":9,"parentId":0,"scrollX":925.7142857142857,"scrollY":520.2857142857142},
+{"id":11,"expanded":false,"name":"World Map Small","order":11,"parentId":0,"scrollX":2128,"scrollY":1214}
+]

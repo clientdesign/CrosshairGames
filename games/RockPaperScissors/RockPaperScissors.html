@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Crosshair Games: Home Page</title>
+    <link rel="icon" type="img/tiles/x-icon" href="/img/fav/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- External bootstrap references -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- External Script references -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="css/grid-gallery.css">
+
+    <!-- External icons references -->
+    <script src="https://kit.fontawesome.com/da42da4e29.js" crossorigin="anonymous"></script>
+
+    <!-- External fonts references -->
+    <!-- Combine fonts properly &/or download to folder -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide,Roboto,Droid+Sans:400,700">
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Alegreya+Sans+SC&family=Audiowide&display=swap"
+        rel="stylesheet">
+
+    <!-- Internal CSS references -->
+    <style>
+        .cg-brand-name {
+            font-family: 'Audiowide', serif;
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+
+        .cg-navbar {
+            font-weight: bolder;
+        }
+    </style>
+
+    <!-- Game1 CSS  -->
+
+    <script src="https://kit.fontawesome.com/3da1a747b2.js"></script>
+    <link rel="stylesheet" href="game1.css">
+    <title>Game: Rock Paper Scissors</title>
+</head>
+
+<body>
+
+<!-- Return to home page navbar -->
+    <div class="container">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <div>
+                <a class="navbar-brand cg-brand-name" href=".../index.html">
+                    <i class="fas fa-crosshairs">&nbsp;</i>Crosshair Games</a>
+            </div>&nbsp;&nbsp;
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+		</nav>	
+	</div>	
+	<br />
+	<br />
+	<br />
+<!-- END OF Return to home page navbar -->
+			
+      <div class="container">
+        <header class="header">
+          <h1>Rock Paper Scissors</h1>
+          <button id="restart" class="restart-btn">Restart Game</button>
+          <div id="score" class="score">
+            <p>Player: 0</p>
+            <p>Computer: 0</p>
+          </div>
+        </header>
+        <h2>Make Your Selection</h2>
+        <div class="choices">
+          <i id="rock" class="choice fas fa-hand-rock fa-10x"></i>
+          <i id="paper" class="choice fas fa-hand-paper fa-10x"></i>
+          <i id="scissors" class="choice fas fa-hand-scissors fa-10x"></i>
+        </div>
+      </div>
+  
+      <!-- Modal -->
+      <div class="modal">
+        <div id="result" class="modal-content"></div>
+      </div>
+
+      <!-- Footer -->
+      <script src="game1.js"></script>
+</body>
+</html>
